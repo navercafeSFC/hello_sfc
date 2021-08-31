@@ -1,0 +1,21 @@
+<mvc:View
+    controllerName="com.sfc.hellosfc.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+	<Shell id="shell"> 
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+
+						<Label text="Hello SFC CAFE"/>
+                        <Button text="Hello" id="buttonHello" press=".onAlertHelloButtonPress"/>  
+                        
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
